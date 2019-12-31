@@ -60,7 +60,7 @@ module Players
 
         elsif win[1..2] == board_array.sort && win[0] == " "
 
-        elsif win.values_at(0,2) == board_array.sort && win
+        elsif win.values_at(0,2) == board_array.sort && win[1] == " "
 
         end
       end
