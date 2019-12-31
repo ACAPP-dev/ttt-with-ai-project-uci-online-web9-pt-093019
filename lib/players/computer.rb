@@ -55,6 +55,7 @@ module Players
     def newer_move(board)
       board_array = current_board(board)
       Game::WIN_COMBINATIONS.each do |win|
+        binding.pry
         
       end
     end
