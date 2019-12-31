@@ -56,7 +56,13 @@ module Players
       board_array = current_board(board)
       Game::WIN_COMBINATIONS.each do |win|
         binding.pry
-        
+        if win(0,1) == board_array.sort
+
+        elsif win(1,2) == board_array.sort
+
+        elsif win(0,2) == board_array.sort
+
+        end
       end
     end
 
