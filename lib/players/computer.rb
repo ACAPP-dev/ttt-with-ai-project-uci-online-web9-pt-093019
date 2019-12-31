@@ -57,7 +57,7 @@ module Players
       Game::WIN_COMBINATIONS.each do |win|
         binding.pry
         if win[0..1] == board_array.sort && win[2] == " "
-
+          return win[2].to_s
         elsif win[1..2] == board_array.sort && win[0] == " "
 
         elsif win.values_at(0,2) == board_array.sort && win[1] == " "
