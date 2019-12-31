@@ -64,6 +64,7 @@ module Players
           return win[1].to_s
         end
       end
+      move_old(board)
     end
 
     def complex_move(board)
