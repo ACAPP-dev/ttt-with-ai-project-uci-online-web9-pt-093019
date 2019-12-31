@@ -67,8 +67,8 @@ module Players
     end
 
     def complex_move(board)
-      board_array = current_board(board)
       newer_move(board)
+      board_array = current_board(board)
       if board.cells[0] != " " && board.cells[0] == board.cells[4] && board.cells[8] == " "
         "9"
       elsif board.cells[0] != " " && board.cells[0] == board.cells[8] && board.cells[2] == " "
