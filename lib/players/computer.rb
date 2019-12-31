@@ -59,9 +59,9 @@ module Players
         if win[0..1] == board_array.sort && win[2] == " "
           return win[2].to_s
         elsif win[1..2] == board_array.sort && win[0] == " "
-
+          return win[0].to_s
         elsif win.values_at(0,2) == board_array.sort && win[1] == " "
-
+          return win[1].to_s
         end
       end
     end
