@@ -58,9 +58,9 @@ module Players
         binding.pry
         if win[0..1] == board_array.sort && win[2] == " "
 
-        elsif win[1..2] == board_array.sort
+        elsif win[1..2] == board_array.sort && win[0] == " "
 
-        elsif win[0..2] == board_array.sort
+        elsif win[0] + win[2] == board_array.sort && win
 
         end
       end
